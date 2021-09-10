@@ -4,8 +4,10 @@ def exp(x):
     for n in range(0,50):
         suma+=math.pow(x,n)/math.factorial(n)
     return suma
-print("funcion exponencial",exp(2))
 def main():
-    n=int (input("Escribe el numero: "))
-    exp(n)
+    x = int(input("ingrese un numero: "))
+    exp(x)
+    print("funcion exponencial: ", exp(x))
+
+if __name__ == '__main__':
     main()
